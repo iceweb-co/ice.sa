@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "International Competitiveness Est.",
+    "description": "International Competitiveness Group, or simply ICE, is a group of companies consulting businesses in various fields. We focus on how our services can support our clients by anticipating their needs and developing innovative solutions. In all markets and sectors that we are active in, we aim to build our sustainable competitive advantage via creating trustful relationships with our clients and establishing win-win partnerships with our suppliers. To do so, we always believe that our relationships with the two ends of our business activities must be managed by adopting agile, effective, and efficient process model.",
+    "menu": {
+      "companies": "Companies",
+      "contactUs": "Contact Us"
+    },
+    "copyright": "Copyright © 2022 International Competitiveness Est.",
+    "address": {
+      "line1": "8714 Salahuddine Al Ayoubi - Al Dubbat",
+      "line2": "Al Umam Office 9",
+      "city": "Riyadh",
+      "zip": "12623 - 4399",
+      "po": "P.O. Box 14600",
+      "phone": "+966 11 291 8700",
+      "fax": "+966 11 291 8600",
+      "email": "info@cc-sa.biz"
+    },
+    "form": {
+      "title": "Contact Us",
+      "name": "Name",
+      "email": "email",
+      "message": "Message",
+      "submit": "Send",
+      "emailFeedback": "Please enter your email",
+      "messageFeedback": "Please enter your message",
+      "honeypotLabel": "Do not fill this out if you are human"
+    }
+  },
+  "home": {
+    "mainHeader": "Who We Are?",
+    "companiesHeader": "Our Companies"
+  }
+}
