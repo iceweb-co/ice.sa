@@ -1,4 +1,4 @@
-import Layout from "../components/layout/Layout";
+import Layout from "../components/layout/layout";
 import { contentfulClient } from "../lib/contentful";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
