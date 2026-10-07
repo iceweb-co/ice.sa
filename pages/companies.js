@@ -6,14 +6,14 @@ import Image from "next/image";
 export async function getStaticProps({ locale }) {
   const cc = contentfulClient();
   const companies = await cc.getEntries({
-    locale,
+    locale, locale || 'en',
     content_type: "company",
   });
 
   return {
     props: {
       companies: companies.items,
-      messages: require(`messages/${locale}.json`),
+      messages: require(`messages/${locale || 'en'}.json`),
     },
   };
 }
