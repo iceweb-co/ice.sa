@@ -1,5 +1,5 @@
-import Layout from "components/layout/Layout";
-import { contentfulClient } from "lib/contentful";
+import Layout from "../components/layout/Layout";
+import { contentfulClient } from "../lib/contentful";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -13,7 +13,7 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       companies: companies.items,
-      messages: require(`messages/${locale}.json`),
+      messages: require(`../messages/${locale}.json`),
     },
   };
 }
