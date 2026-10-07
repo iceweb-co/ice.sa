@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@headlessui/react": "^1.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.2",
+    "contentful": "^9.1.29",
+    "form-urlencoded": "^6.0.6",
+    "next": "^12.1.6",
+    "next-intl": "^2.7.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "tailwindcss": "^3.0.24",
+    "tailwindcss-logical": "^3.0.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.6",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.3.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.11"
+  }
+}
