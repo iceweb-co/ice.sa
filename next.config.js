@@ -7,7 +7,7 @@ const withBundleAnalyzer =
 
 module.exports = withBundleAnalyzer({
   i18n: {
-    locales: ["ar-SA", "en"],
+    locales: ["en", "ar-SA"],
     defaultLocale: "ar-SA",
     localeDetection: false,
   },
